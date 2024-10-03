@@ -14,7 +14,7 @@ Manual Test Cases for Orange HRM:
 # Bug Reports for The Bug Genie:
 - Comprehensive documentation of different types of bugs encountered during testing.
 - Clear descriptions and steps to reproduce each bug, enhancing clarity for developers and stakeholders.
-- 
+  
 # Purpose
 This project not only illustrates my testing capabilities but also reflects my attention to detail and commitment to delivering high-quality software. By combining well-structured test cases with actionable bug reports, I aim to contribute to the improvement of software quality and user experience.
 
