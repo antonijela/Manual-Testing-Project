@@ -1,0 +1,19 @@
+## ID: 19
+
+## Test Case Name:
+Verify that the admin can search for users by their username.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one user with a known username exists in the system.
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: In the "Username" search field, input a valid username (input: valid username).
+   - Expected result: The username is entered and visible in the search field.
+
+3. Step: Click the "Search" button.
+   - Expected result: The search results are displayed, showing the user with the matching username.
+

@@ -1,0 +1,35 @@
+## ID: 38
+
+## Test Case Name: Verify that the admin can search for an employee.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "PIM."
+   - Expected result: The Employee List page is displayed with Employee Information.
+
+2. Fill in the "Employee Name" field with a valid employee name. (Input: Employee Name)
+   - Expected result: The employee name is entered successfully.
+
+3. Fill in the "Employee ID" field with a valid employee ID. (Input: Employee ID)
+   - Expected result: The employee ID is entered successfully.
+
+4. Select a value from the "Employment Status" dropdown.
+   - Expected result: The employment status is selected successfully.
+
+5. Select a value from the "Include" dropdown.
+   - Expected result: The include option is selected successfully.
+
+6. Fill in the "Supervisor Name" field with a valid supervisor name. (Input: Supervisor Name)
+   - Expected result: The supervisor name is entered successfully.
+
+7. Select a value from the "Job Title" dropdown.
+   - Expected result: The job title is selected successfully.
+
+8. Select a value from the "Sub Unit" dropdown.
+   - Expected result: The sub-unit is selected successfully.
+
+9. Click the "Search" button.
+   - Expected result: The results are displayed under "Records Found."
+

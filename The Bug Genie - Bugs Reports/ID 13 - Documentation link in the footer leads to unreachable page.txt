@@ -1,0 +1,18 @@
+# ID: 13
+
+# Summary: "Documentation" link under "Resources" in the footer leads to an unreachable page.
+
+# Description: After scrolling down to the footer and clicking on "Documentation" under the "Resources" section, the user is directed to a page that displays a notification stating, "This site can’t be reached."
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the footer section.
+3. Under Resources, click on "Documentation."
+
+# Expected result: 
+Clicking the "Documentation" link should direct the user to a page containing the relevant documentation.
+
+# Actual result:
+Clicking the "Documentation" link leads to a page displaying the notification "This site can’t be reached."
+
+# Priority: High

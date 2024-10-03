@@ -1,0 +1,16 @@
+## ID: 11
+
+## Test Case Name: Verify that the user can log out successfully.
+
+## Pre-Conditions:
+- The user must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on the user icon in the upper right corner.
+   - Expected result: A dropdown menu with options is displayed.
+
+2. Step: Click on the "Logout" option from the dropdown menu.
+   - Expected result: The user is logged out and redirected to the login page.
+
+3. Step: Verify that the login page is displayed.
+   - Expected result: The login page is displayed, confirming the user is logged out.

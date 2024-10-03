@@ -1,0 +1,18 @@
+# ID: 14
+
+# Summary: "The Bug Genie and Zegenie Studios" link under the About section in the footer leads to a 404 error page.
+
+# Description: After scrolling down to the footer and clicking on "The Bug Genie and Zegenie Studios" under the About section, the user is directed to a page that displays a "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !" error.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the footer section.
+3. Under the About section, click on "The Bug Genie and Zegenie Studios."
+
+# Expected result: 
+Clicking the "The Bug Genie and Zegenie Studios" link should direct the user to a page providing information about The Bug Genie and Zegenie Studios.
+
+# Actual result:
+Clicking the "The Bug Genie and Zegenie Studios" link leads to a page displaying "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !"
+
+# Priority: High

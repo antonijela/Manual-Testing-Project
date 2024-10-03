@@ -1,0 +1,23 @@
+## ID: 30
+
+## Test Case Name:
+Verify that Admin can delete multiple vacancies at once.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Recruitment page is displayed.
+
+2. Step: Click on the "Vacancies" button in the top left corner of the Recruitment page.
+   - Expected result: The Vacancies list is displayed.
+
+3. Step: Select multiple vacancies by checking the checkboxes next to the desired vacancies.
+   - Expected result: The checkboxes for the selected vacancies are checked.
+
+4. Step: Click on the "Delete Selected" button at the top of the vacancies list.
+   - Expected result: A confirmation pop-up appears, asking for confirmation to delete the selected vacancies.
+
+5. Step: Confirm the deletion by clicking on the "Yes, Delete" button in the pop-up.
+   - Expected result: The selected vacancies are deleted from the list, and a success message is displayed.

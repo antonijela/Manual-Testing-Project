@@ -1,0 +1,28 @@
+## ID: 40
+
+## Test Case Name: Verify that the admin can add a customer.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "Time."
+   - Expected result: The Timesheets page is displayed.
+
+2. Click on the "Project Info" option at the top.
+   - Expected result: The Project Info dropdown is displayed.
+
+3. Select "Customer" from the dropdown.
+   - Expected result: The Customers page is displayed.
+
+4. Click the "+ Add" button.
+   - Expected result: The Add Customer form is displayed.
+
+5. Fill in the "Name" field. (Input: Customer Name)
+   - Expected result: The customer name is entered and visible.
+
+6. Fill in the "Description" field. (Input: Customer Description)
+   - Expected result: The customer description is entered and visible.
+
+7. Click "Save" button.
+   - Expected result: A confirmation message is displayed indicating the customer has been successfully added.

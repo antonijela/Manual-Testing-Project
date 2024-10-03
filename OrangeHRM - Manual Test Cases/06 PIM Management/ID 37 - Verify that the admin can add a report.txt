@@ -1,0 +1,34 @@
+## ID: 37
+
+## Test Case Name: Verify that the admin can add a report.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "PIM."
+   - Expected result: The Employee List page is displayed.
+
+2. Click on the "Reports" option at the top.
+   - Expected result: The "Add Report" page is displayed.
+
+3. Fill in the "Report Name" field with a valid report name. (Input: Report Name)
+   - Expected result: The report name is entered successfully.
+
+4. Select a value from the "Selection Criteria" dropdown.
+   - Expected result: The selection criteria is selected successfully.
+
+5. Select a value from the "Include" dropdown.
+   - Expected result: The include option is selected successfully.
+
+6. Select a value from the "Select Display Field Group" dropdown.
+   - Expected result: The display field group is selected successfully.
+
+7. Select a value from the "Select Display Field" dropdown.
+   - Expected result: The display field is selected successfully.
+
+8. Click the "+" button next to "Select Display Field" to add one display field at a time.
+   - Expected result: The selected display field is added to the report.
+
+9. Click the "Save" button.
+   - Expected result: A success notification appears, confirming that the report is added successfully.

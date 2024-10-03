@@ -1,0 +1,29 @@
+## ID: 45
+
+## Test Case Name: Verify that the admin can add a performance review for an employee.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- The employee for whom the performance review is being added must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. Click on "Configure" at the top and select "Trackers" from the dropdown.
+   - Expected result: The Trackers configuration page is displayed.
+
+3. Click the "+ Add" button.
+   - Expected result: The Add Performance Tracker form is displayed.
+
+4. Fill in the "Tracker Name" field. (Input: Tracker Name)
+   - Expected result: The tracker name is entered and visible.
+
+5. Type the employee name in the "Employee Name" field. (Input: Employee Name)
+   - Expected result: The entered employee name is entered and visible.
+
+6. Fill in the "Reviewers" field with the reviewer's name. (Input: Reviewer Name)
+   - Expected result: The reviewer's name is entered and visible.
+
+7. Click the "Save" button.
+   - Expected result: A confirmation message is displayed indicating the performance tracker has been successfully added.

@@ -1,0 +1,18 @@
+# ID: 15
+
+# Summary: "Feature" option in the navigation bar leads to a page with missing images.
+
+# Description: After clicking the "Feature" option in the navigation bar, the user is directed to a page that displays reserved spaces for images in several sections; however, no images are shown, resulting in prominent white boxes.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Click on the "Feature" option in the navigation bar.
+3. Observe the sections that have reserved spaces for images.
+
+# Expected result: 
+The "Feature" page should display relevant images in the designated sections.
+
+# Actual result:
+The page shows empty white boxes where images should be displayed.
+
+# Priority: Medium

@@ -1,0 +1,18 @@
+## ID: 25
+
+## Test Case Name:
+Verify that Admin can delete a candidate.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one candidate must already exist in the system (refer to Test Case ID 22 for adding a candidate).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates form is displayed.
+
+2. Step: Click on the trash can icon under the actions column next to the desired candidate.
+   - Expected result: A confirmation prompt appears asking if the Admin wants to delete the candidate.
+
+3. Step: Confirm the deletion in the prompt.
+   - Expected result: The candidate is deleted successfully, and a confirmation message is displayed.

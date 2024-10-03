@@ -1,0 +1,20 @@
+## ID: 18
+
+## Test Case Name:
+Verify that the admin cannot add a user without providing required fields.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: Click the "Add" button to open the "Add User" page.
+   - Expected result: The "Add User" page is displayed.
+
+3. Step: Leave all required fields (User Role, Employee Name, Username, Password, Confirm Password) empty.
+   - Expected result: All fields are empty.
+
+4. Step: Click the "Save" button.
+   - Expected result: Error messages appear next to each required field indicating that they are required and user cannot be added.

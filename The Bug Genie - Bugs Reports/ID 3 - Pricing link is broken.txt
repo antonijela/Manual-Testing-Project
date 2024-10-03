@@ -1,0 +1,18 @@
+# ID: 3
+
+# Summary: "See pricing" link in the "Hosted by us" section leads to a 404 error.
+
+# Description: Clicking on the "See pricing" link under the "Hosted by us" section results in a 404 error message.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Click on "Latest version. Get it now" under the "Powerful workflows" paragraph.
+3. Under the title in the "Hosted by us" section, click on the "See pricing" link.
+
+# Expected result: 
+Clicking the "See pricing" link should redirect the user to the pricing page.
+
+# Actual result:
+An error message "404 OOPS, SORRY WE CAN'T FIND THAT PAGE!" is displayed.
+
+# Priority: High

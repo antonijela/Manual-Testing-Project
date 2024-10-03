@@ -1,0 +1,20 @@
+## ID: 50
+
+## Test Case Name: Verify that the admin can search for employee performance trackers.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one employee performance tracker must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. At the top of the page, click on "Employee Trackers."
+   - Expected result: The "Employee Performance Trackers" page is displayed.
+
+3. Fill in the "Employee Name" field and select an option from the "Include" dropdown.
+   - Expected result: The employee name and selected option are visible in the search fields.
+
+4. Click the "Search" button.
+   - Expected result: The results are displayed in the "Record Found" list, showing the relevant employee performance trackers.

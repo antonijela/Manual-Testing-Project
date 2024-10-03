@@ -1,0 +1,18 @@
+# ID: 6
+
+# Summary: "Planning your moves" paragraph and adjacent sections exhibit misalignment.
+
+# Description: Upon scrolling down to the "Planning your moves" paragraph, this section, along with three adjacent paragraphs, displays poor text alignment, leading to confusion regarding the content's purpose.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the "Planning your moves" paragraph.
+3. Observe the alignment of the paragraph and the three adjacent sections.
+
+# Expected result: 
+All paragraphs should be aligned properly, enhancing clarity and readability.
+
+# Actual result:
+The "Planning your moves" paragraph and the adjacent paragraphs are misaligned, creating a visually confusing layout.
+
+# Priority: Medium

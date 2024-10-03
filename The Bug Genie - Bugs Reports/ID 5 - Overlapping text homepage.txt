@@ -1,0 +1,18 @@
+# ID: 5
+
+# Summary: "Latest news" and "Fresh from the developers" titles have overlapping text.
+
+# Description: When scrolling down to the "Latest news" and "Fresh from the developers" sections, the text in these titles overlaps, which affects readability.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the "Latest news" and "Fresh from the developers" sections.
+3. Observe the titles.
+
+# Expected result: 
+The titles should be displayed clearly without any overlapping text.
+
+# Actual result:
+The text of the "Latest news" and "Fresh from the developers" titles overlaps, making it harder to read.
+
+# Priority: Medium

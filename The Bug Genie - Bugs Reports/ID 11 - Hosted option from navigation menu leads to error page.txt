@@ -1,0 +1,17 @@
+# ID: 11
+
+# Summary: "Hosted" option in the navigation bar leads to a 404 error page.
+
+# Description: After clicking on the "Hosted" option from the navigation bar on the homepage, the user is directed to a page that displays a "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !" error.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Click on the "Hosted" option in the navigation bar.
+
+# Expected result: 
+Clicking the "Hosted" option should direct the user to the relevant hosting information page.
+
+# Actual result:
+Clicking the "Hosted" option leads to a page displaying "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !"
+
+# Priority: High

@@ -1,0 +1,42 @@
+## ID: 13
+
+## Test Case Name:
+Verify that the number of user records increases after adding a new user.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: Check and note the current number of user records displayed in the table.
+   - Expected result: The total number of records is visible and noted.
+
+3. Step: Click on the "Add User" button.
+   - Expected result: The "Add User" form is displayed.
+
+4. Step: Select a user role from the "User Role" dropdown.
+   - Expected result: User role is selected and visible.
+
+5. Step: Input the employee's name in the "Employee Name" field (input: employee's name).
+   - Expected result: Employee name is entered and visible.
+
+6. Step: Select the status from the "Status" dropdown (input: Enabled).
+   - Expected result: Status is selected and visible.
+
+7. Step: Input a valid username in the "Username" field (input: newuser).
+   - Expected result: Username is entered and visible.
+
+8. Step: Input a valid password in the "Password" field (input: valid password).
+   - Expected result: Password is entered, visible, and covered in dots.
+
+9. Step: Confirm the password in the "Confirm Password" field (input: valid password).
+   - Expected result: Password confirmation is entered and visible.
+
+10. Step: Click on the "Save" button.
+    - Expected result: A success message is displayed, indicating the user has been added,
+      and user is taken back to Admin Managment page.
+
+11. Step: Check the number of user records.
+    - Expected result: The number of records is one more than the original count noted in Step 2.

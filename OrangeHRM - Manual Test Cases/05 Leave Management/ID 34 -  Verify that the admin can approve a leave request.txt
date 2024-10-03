@@ -1,0 +1,26 @@
+## Test Case ID: 34
+## Test Case Name: Verify that the admin can approve a leave request.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- There must be existing leave requests pending approval.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Leave."
+   - Expected result: The Leave Management page is displayed, and the "Leave List" is open by default.
+
+2. On the "Leave List" page, locate a leave request with the status "Pending Approval."
+   - Expected result: Leave requests with "Pending Approval" status are displayed in the list.
+
+3. Click on the three vertical dots under the "Actions" column for the pending leave request.
+   - Expected result: A dropdown menu with available actions is displayed.
+
+4. Select the "View Leave Details" option.
+   - Expected result: The "Leave Request Details" page is opened for the selected leave request.
+
+5. Click on the three vertical dots on the "Leave Request Details" page.
+   - Expected result: A dropdown menu with actions for the request is displayed.
+
+6. Select the "Approve Leave" option from the dropdown.
+   - Expected result: The leave request is approved, and the status is updated to "Approved."
+

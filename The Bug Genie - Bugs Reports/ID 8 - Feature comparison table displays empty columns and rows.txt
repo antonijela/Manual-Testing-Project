@@ -1,0 +1,19 @@
+# ID: 8
+
+# Summary: "Feature comparison" table displays empty columns and rows.
+
+# Description: Upon scrolling down to the footer and clicking the "Start using The Bug Genie" button, the "Feature comparison" table on the next page is observed to have empty columns and rows, providing no information to the user.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the footer section.
+3. Click on the "Start using The Bug Genie" button.
+4. Observe the "Feature comparison" table.
+
+# Expected result: 
+The "Feature comparison" table should display relevant features and data for comparison.
+
+# Actual result:
+All columns and rows in the "Feature comparison" table are empty, leaving the user without any information.
+
+# Priority: High

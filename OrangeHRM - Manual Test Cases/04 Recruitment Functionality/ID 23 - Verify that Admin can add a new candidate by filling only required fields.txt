@@ -1,0 +1,31 @@
+## ID: 23
+
+## Test Case Name:
+Verify that Admin can add a new candidate by filling only required fields.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates form is displayed.
+
+2. Step: Click on the "+ Add" button.
+   - Expected result: The "Add Candidate" form appears.
+
+3. Step: Input valid first name in the "First Name" field (input: John).
+   - Expected result: First name is entered and visible.
+
+4. Step: Input valid middle name in the "Middle Name" field (input: A).
+   - Expected result: Middle name is entered and visible.
+
+5. Step: Input valid last name in the "Last Name" field (input: Doe).
+   - Expected result: Last name is entered and visible.
+
+6. Step: Input a valid email in the "Email" field (input: john.doe@example.com).
+   - Expected result: Email is entered and visible.
+
+7. Step: Leave the remaining fields (Vacancy, Contact Number, Resume, Keywords, Date of Application, Notes, Consent to keep data) empty.
+
+8. Step: Click on the "Save" button.
+   - Expected result: The candidate is added successfully, and a confirmation message is displayed.

@@ -1,0 +1,26 @@
+## ID: 48
+
+## Test Case Name: Verify that the admin can edit tracker logs.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one performance tracker and its associated log must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. Click on "My Trackers" at the top.
+   - Expected result: The "My Trackers" page is displayed.
+
+3. In the "Record Found" list, locate the desired performance tracker and click "View" under the "Actions" column.
+   - Expected result: The detailed page for the selected tracker is displayed.
+
+4. For the desired log, click on the three vertical dots at the right end of the log and select the "Edit" option.
+   - Expected result: The "Edit Tracker Log" form appears.
+
+5. Edit the fields: update the "Log" field, select either "Positive" or "Negative," and modify the "Comment" field.
+   - Expected result: The updated log details are visible.
+
+6. Click the "Save" button.
+   - Expected result: A success notification appears, and the modified tracker log is updated with a pencil icon and the date when it was last modified.

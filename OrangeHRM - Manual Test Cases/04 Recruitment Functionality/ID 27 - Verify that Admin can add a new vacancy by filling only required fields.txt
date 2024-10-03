@@ -1,0 +1,32 @@
+## ID: 27
+
+## Test Case Name:
+Verify that Admin can add a new vacancy by filling only required fields.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates page is displayed.
+
+2. Step: Click on the "Vacancy" button in the top left corner.
+   - Expected result: The Vacancies page is displayed.
+
+3. Step: Click on the "+ Add" button to open the "Add Vacancy" form.
+   - Expected result: The "Add Vacancy" form is displayed with fields for vacancy details.
+
+4. Step: Input Vacancy Name in the "Vacancy Name" field (input: Software Engineer).
+   - Expected result: Vacancy Name is entered and visible.
+
+5. Step: Select Job Title from the "Job Title" dropdown (input: Software Engineer).
+   - Expected result: Job Title is selected and visible.
+
+6. Step: Input Hiring Manager in the "Hiring Manager" field (input: John Doe).
+   - Expected result: Hiring Manager is entered and visible.
+
+7. Step: Leave the remaining fields (Description, Number of Positions, Active, Publish in RSS Feed and Web Page) empty or in their default state.
+   - Expected result: Fields are left empty, and default values are retained.
+
+8. Step: Click on the "Save" button to add the new vacancy.
+   - Expected result: A confirmation message is displayed, indicating that the vacancy has been added successfully.

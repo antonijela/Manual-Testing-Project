@@ -1,0 +1,19 @@
+# ID: 7
+
+# Summary: "Feature comparison" and "Hosted, download or open source?" texts overlap.
+
+# Description: Upon scrolling down to the footer and clicking the "Start using The Bug Genie" button, the "Feature comparison" and "Hosted, download or open source?" texts are observed to overlap, impacting the readability of the content.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the footer section.
+3. Click on the "Start using The Bug Genie" button.
+4. Observe the overlapping text between "Feature comparison" and "Hosted, download or open source?".
+
+# Expected result: 
+The "Feature comparison" and "Hosted, download or open source?" texts should be displayed clearly without overlap.
+
+# Actual result:
+The texts overlap, making it difficult to read and understand the content.
+
+# Priority: Low

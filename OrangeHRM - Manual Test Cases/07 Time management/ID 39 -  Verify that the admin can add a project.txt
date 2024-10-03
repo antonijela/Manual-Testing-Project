@@ -1,0 +1,37 @@
+## ID: 39
+
+## Test Case Name: Verify that the admin can add a project.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "Time."
+   - Expected result: The Timesheets page is displayed.
+
+2. Click on the "Project Info" option at the top.
+   - Expected result: The Project Info dropdown is displayed.
+
+3. Select "Project" from the dropdown.
+   - Expected result: The Projects page is displayed.
+
+4. Click the "+ Add" button.
+   - Expected result: The Add Project form is displayed.
+
+5. Fill in the "Name" field. (Input: Project Name)
+   - Expected result: The project name is entered and visible.
+
+6. Fill in the "Customer Name" field and click "Add Customer" to add it. (Input: Customer Name)
+   - Expected result: The customer name is entered and visible.
+
+7. Fill in the "Description" field. (Input: Project Description)
+   - Expected result: The project description is entered and visible.
+
+8. Fill in the "Project Admin" field and select from the offered search results. (Input: Project Admin Name)
+   - Expected result: The project admin is selected successfully.
+
+9. Click "Add Another" to add more admins.
+   - Expected result: Additional field for project admin is displayed.
+
+10. Click "Save."
+   - Expected result: A confirmation message is displayed indicating the project has been successfully added.

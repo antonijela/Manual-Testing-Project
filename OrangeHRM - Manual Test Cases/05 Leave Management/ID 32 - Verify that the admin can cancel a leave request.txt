@@ -1,0 +1,20 @@
+## ID: 32
+
+## Test Case Name: Verify that the admin can cancel a leave request.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- There must be an existing leave request from an employee that is in a cancellable state.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Leave."
+   - Expected result: The Leave Management page is displayed, and the "Leave List" is open by default.
+
+2. Locate the leave request that needs to be canceled in the "Leave List."
+   - Expected result: The specific leave request is visible in the list with its details.
+
+3. At the end of the user row, click on the three vertical dots under the "Actions" column, and select "View leave details."
+   - Expected result: The "Leave Request Details" page is displayed.
+
+4. On the "Leave Request Details" page, click the three vertical dots again and select the "Cancel Leave" option.
+   - Expected result: The leave request is immediately canceled and a success notification is displayed.

@@ -1,0 +1,31 @@
+## ID: 35
+## Test Case Name: Verify that the admin can add an employee.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "PIM."
+   - Expected result: The "Employee List" page is displayed.
+
+2. On the top menu, click on the "Add Employee" button.
+   - Expected result: The "Add Employee" form is displayed.
+
+3. Fill in the "First Name" field with a valid first name. (Input: First Name)
+   - Expected result: The first name is entered successfully.
+
+4. Fill in the "Middle Name" field with a valid middle name (optional). (Input: Middle Name)
+   - Expected result: The middle name is entered or left blank.
+
+5. Fill in the "Last Name" field with a valid last name. (Input: Last Name)
+   - Expected result: The last name is entered successfully.
+
+6. Enter a unique "Employee ID." (Input: Employee ID)
+   - Expected result: The employee ID is entered.
+
+7. Upload an employee image by clicking "Choose File" and selecting a valid image file. (Input: Image File)
+   - Expected result: The image is uploaded successfully.
+
+8. Click the "Save" button.
+   - Expected result: The employee is successfully added to the system, and the "Personal Details" page for the new employee is displayed.
+

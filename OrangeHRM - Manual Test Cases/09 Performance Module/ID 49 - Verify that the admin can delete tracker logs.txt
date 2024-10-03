@@ -1,0 +1,23 @@
+## ID: 49
+
+## Test Case Name: Verify that the admin can delete tracker logs.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one performance tracker and its associated log must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. Click on "My Trackers" at the top.
+   - Expected result: The "My Trackers" page is displayed.
+
+3. In the "Record Found" list, locate the desired performance tracker and click "View" under the "Actions" column.
+   - Expected result: The detailed page for the selected tracker is displayed.
+
+4. For the desired log, click on the three vertical dots at the right end of the log and select the "Delete" option.
+   - Expected result: A prompt appears asking for confirmation.
+
+5. Confirm the deletion by clicking "Yes, Delete."
+   - Expected result: A success notification appears, and the log is removed from the "Tracker Logs" section.

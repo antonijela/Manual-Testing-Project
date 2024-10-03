@@ -1,0 +1,17 @@
+# ID: 2
+
+# Summary: Clicking on the image next to "Powerful workflows" paragraph does not lead to any URL.
+
+# Description: The image located next to the "Powerful workflows" paragraph appears to be clickable, but it does not redirect to any link when clicked.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Click on the image next to the "Powerful workflows" paragraph.
+
+# Expected result: 
+Clicking the image should redirect the user to the associated URL.
+
+# Actual result:
+The image seems to be clickable but does not redirect to any URL.
+
+# Priority: Medium

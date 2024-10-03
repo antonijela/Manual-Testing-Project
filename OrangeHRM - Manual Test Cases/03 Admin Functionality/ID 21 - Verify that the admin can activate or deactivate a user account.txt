@@ -1,0 +1,30 @@
+## ID: 21
+
+## Test Case Name:
+Verify that the admin can activate/deactivate a user account.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one user exists in the system.
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: In the "Username" search field, input the username of the user you want to activate/deactivate (input: valid username).
+   - Expected result: The username is entered and visible in the search field.
+
+3. Step: Click the "Search" button.
+   - Expected result: The search results are displayed, showing the user with the matching username.
+
+4. Step: Click the "Edit" (pencil) icon next to the user whose account status you want to change.
+   - Expected result: The Edit User page is displayed.
+
+5. Step: In the "Status" dropdown, select "Active" to activate or "Inactive" to deactivate the user account.
+   - Expected result: The status is updated to either "Active" or "Inactive" as selected.
+
+6. Step: Click the "Save" button.
+   - Expected result: The user's account status is successfully updated, and a confirmation message is displayed.
+
+7. Step: Verify the user's status by performing a search for the username again.
+   - Expected result: The user's status appears as "Active" or "Inactive" based on the change.

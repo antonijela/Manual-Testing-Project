@@ -1,0 +1,32 @@
+## Test Case ID: 31
+
+## Test Case Name: Verify that the admin can assign leave to an employee.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- The admin must have access to the Leave Management module.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Leave."
+   - Expected result: The Leave Management page is displayed, and the "Leave List" is open by default.
+
+2. On the "Leave List" page, click on the "Assign Leave" button located at the top-right corner of the page.
+   - Expected result: The "Assign Leave" form is opened.
+
+3. In the "Employee Name" field, enter a valid employee name and select the employee from the dropdown suggestions.
+   - Expected result: The employee name is successfully entered and selected.
+
+4. In the "Leave Type" dropdown, select a valid leave type (e.g., "Annual Leave").
+   - Expected result: The selected leave type is displayed in the field.
+
+5. In the "From Date" field, select the start date for the leave using the date picker.
+   - Expected result: The chosen date is displayed in the "From Date" field.
+
+6. In the "To Date" field, select the end date for the leave using the date picker.
+   - Expected result: The chosen date is displayed in the "To Date" field.
+
+7. Enter a comment in the "Comments" field.
+   - Expected result: The comment is entered and visible.
+
+8. Click the "Assign" button to assign the leave.
+   - Expected result: The leave is successfully assigned, and a confirmation message is displayed.

@@ -1,0 +1,20 @@
+## ID: 5
+
+## Test Case Name:
+Verify that admin cannot log in with both fields empty
+
+## Pre-Conditions:
+- The user is on the login page.
+
+## Steps:
+1. Step: Open the login page "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+   - Expected result: The login page is displayed.
+
+2. Step: Leave the "Username" field empty.
+   - Expected result: The username field remains empty.
+
+3. Step: Leave the "Password" field empty.
+   - Expected result: The password field remains empty.
+
+4. Step: Click on the "Login" button.
+   - Expected result: An error message is displayed indicating that both username and password are required (for each field separate message).

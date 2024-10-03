@@ -1,0 +1,33 @@
+## ID: 28
+
+## Test Case Name:
+Verify that Admin can edit an existing vacancy.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- An existing vacancy must be available to edit.
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates page is displayed.
+
+2. Step: Click on the "Vacancy" button in the top left corner.
+   - Expected result: The Vacancies page is displayed.
+
+3. Step: In the list of vacancies, locate the vacancy to be edited.
+   - Expected result: The list of available vacancies is displayed.
+
+4. Step: Click the pencil icon under the "Actions" column next to the desired vacancy.
+   - Expected result: The "Edit Vacancy" form is displayed, pre-filled with existing vacancy details.
+
+5. Step: Edit the "Vacancy Name" field (input: Senior Software Engineer).
+   - Expected result: The new vacancy name is entered and visible.
+
+6. Step: Edit the "Job Title" from the dropdown.
+   - Expected result: The new job title is selected and visible.
+
+7. Step: Edit the "Hiring Manager" field (input: valid name).
+   - Expected result: The new hiring manager name is entered and visible.
+
+8. Step: Click on the "Save" button to apply changes.
+   - Expected result: A confirmation message is displayed, indicating that the vacancy has been updated successfully.

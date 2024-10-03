@@ -1,0 +1,31 @@
+## ID: 14
+
+## Test Case Name:
+Verify that the admin can change user information.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: Check the user records under "Records Found" on the Admin page.
+   - Expected result: A list of user records is displayed.
+
+3. Step: Select the first user from the list.
+   - Expected result: The first user is checked.
+
+4. Step: Click on the pencil icon (edit icon) under Actions column.
+   - Expected result: The "Edit User" page for the selected user is displayed.
+
+5. Step: Update any of the following fields: 
+   - "User Role" 
+   - "Status"
+   - "Employee Name"
+   - "Username"
+   - Expected result: The respective field(s) is/are updated with the new information.
+
+6. Step: Click on the "Save" button.
+   - Expected result: The user information is successfully saved and the admin is redirected back to the Admin page with a confirmation message displayed.
+

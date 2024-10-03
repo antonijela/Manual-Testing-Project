@@ -1,0 +1,24 @@
+## ID: 29
+
+## Test Case Name:
+Verify that Admin can delete an existing vacancy.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- An existing vacancy must be available to delete.
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates page is displayed.
+
+2. Step: Click on the "Vacancy" button in the top left corner.
+   - Expected result: The Vacancies page is displayed.
+
+3. Step: In the list of vacancies, locate the vacancy to be deleted.
+   - Expected result: The list of available vacancies is displayed.
+
+4. Step: Click the trash can icon under the "Actions" column next to the desired vacancy.
+   - Expected result: A pop-up confirmation dialog appears asking to confirm the deletion.
+
+5. Step: Confirm the deletion in the pop-up dialog.
+   - Expected result: The vacancy is deleted, and a confirmation message is displayed.

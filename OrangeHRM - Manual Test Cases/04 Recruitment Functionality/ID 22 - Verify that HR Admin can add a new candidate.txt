@@ -1,0 +1,50 @@
+## ID: 22
+
+## Test Case Name:
+Verify that Admin can add a new candidate.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates form is displayed.
+
+2. Step: Click on the "+ Add" button.
+   - Expected result: The "Add Candidate" form appears.
+
+3. Step: Input valid first name in the "First Name" field (input: valid first name).
+   - Expected result: First name is entered and visible.
+
+4. Step: Input valid middle name in the "Middle Name" field (input: valid middle name).
+   - Expected result: Middle name is entered and visible.
+
+5. Step: Input valid last name in the "Last Name" field (input: valid last name).
+   - Expected result: Last name is entered and visible.
+
+6. Step: Select a vacancy from the "Vacancy" dropdown (input: Software Engineer).
+   - Expected result: The selected vacancy is displayed.
+
+7. Step: Input a valid email in the "Email" field (input: mail@example.com).
+   - Expected result: Email is entered and visible.
+
+8. Step: Input a valid contact number in the "Contact Number" field (input: valid number).
+   - Expected result: Contact number is entered and visible.
+
+9. Step: Upload a valid resume file in the "Resume" field (input: valid_resume.pdf).
+   - Expected result: Resume file is uploaded successfully.
+
+10. Step: Input valid keywords in the "Keywords" field (input: Java, Selenium).
+    - Expected result: Keywords are entered and visible.
+
+11. Step: Select a date in the "Date of Application" field (input: 2024-09-30).
+    - Expected result: Selected date is displayed.
+
+12. Step: Input valid notes in the "Notes" field (input: Experienced in automation testing).
+    - Expected result: Notes are entered and visible.
+
+13. Step: Check the checkbox for "Consent to keep data".
+    - Expected result: The checkbox is selected.
+
+14. Step: Click on the "Save" button.
+    - Expected result: The candidate is added successfully, and a confirmation message is displayed.

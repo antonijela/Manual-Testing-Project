@@ -1,0 +1,20 @@
+# ID: 9
+
+# Summary: "LEARN MORE" button in the "Hosted by us" column leads to a 404 error page.
+
+# Description: After clicking the "LEARN MORE" button at the bottom of the "Hosted by us" column in the Feature comparison table, the user is directed to a page that displays a "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !" error.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Scroll down to the footer section.
+3. Click on the "Start using The Bug Genie" button.
+4. Observe the "Feature comparison" table.
+5. Click on the "LEARN MORE" button in the "Hosted by us" column.
+
+# Expected result: 
+The "LEARN MORE" button should direct the user to a relevant information page regarding hosting options.
+
+# Actual result:
+Clicking the "LEARN MORE" button leads to a page displaying "404 OOPS, SORRY WE CAN'T FIND THAT PAGE !"
+
+# Priority: High

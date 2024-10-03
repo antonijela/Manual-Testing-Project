@@ -1,0 +1,23 @@
+## ID: 16
+
+## Test Case Name:
+Verify that the admin can delete multiple users.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: Check the user records under "Records Found" on the Admin page.
+   - Expected result: A list of user records is displayed.
+
+3. Step: Select the checkboxes next to 2-4 users from the list.
+   - Expected result: The selected users are checked and "Delete Selected" button appears above list.
+
+4. Step: Click on the "Delete Selected" button.
+   - Expected result: The selected users are successfully deleted, a confirmation message is displayed, and the selected user records are removed from the list.
+
+6. Step: Verify that the number of user records has decreased by the number of deleted users after the deletion.
+   - Expected result: The selected users are no longer listed, and the total number of user records is reduced accordingly.

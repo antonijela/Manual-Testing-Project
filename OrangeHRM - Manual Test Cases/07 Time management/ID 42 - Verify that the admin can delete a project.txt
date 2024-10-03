@@ -1,0 +1,22 @@
+## ID: 42
+
+## Test Case Name: Verify that the admin can delete a project.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "Time."
+   - Expected result: The Timesheets page is displayed.
+
+2. Click on the "Project Info" option at the top.
+   - Expected result: The Project Info dropdown is displayed.
+
+3. Select "Project Info" from the dropdown.
+   - Expected result: The Projects page is displayed.
+
+4. From the list, next to the desired project, click the trash icon under the "Actions" column.
+   - Expected result: A prompt appears to confirm the deletion.
+
+5. Click "Yes, Delete" in the prompt.
+   - Expected result: A confirmation message is displayed indicating the project has been successfully deleted.

@@ -1,0 +1,19 @@
+# ID: 16
+
+# Summary: "Download" button under "Open Source Edition" section does not function.
+
+# Description: After clicking on the "Download" button under the "Open Source Edition" section on the download page, the user attempts to click any download button for any release, but the action does not result in a file download.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Click on the "Download Now" button in the navigation bar.
+3. On the next page, click on the "Download" button under the "Open Source Edition" section.
+4. On the following page, click on any "Download" button for any release.
+
+# Expected result: 
+The download button should initiate the download of the selected release file.
+
+# Actual result:
+Clicking the download button does not trigger any download action.
+
+# Priority: High

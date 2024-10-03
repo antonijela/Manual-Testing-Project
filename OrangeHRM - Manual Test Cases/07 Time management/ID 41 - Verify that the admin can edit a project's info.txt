@@ -1,0 +1,34 @@
+## ID: 41
+
+## Test Case Name: Verify that the admin can edit a project's info.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Navigate to the left sidebar and click on "Time."
+   - Expected result: The Timesheets page is displayed.
+
+2. Click on the "Project Info" option at the top.
+   - Expected result: The Project Info dropdown is displayed.
+
+3. Select "Project Info" from the dropdown.
+   - Expected result: The Projects page is displayed.
+
+4. From the list, next to the desired project, click the pencil icon under the "Actions" column.
+   - Expected result: The Edit Project page is displayed.
+
+5. Edit the "Name" field. (Input: New Project Name)
+   - Expected result: The project name is updated successfully.
+
+6. Edit the "Customer Name" field. (Input: New Customer Name)
+   - Expected result: The customer name is updated successfully.
+
+7. Edit the "Description" field. (Input: New Project Description)
+   - Expected result: The project description is updated successfully.
+
+8. Edit the "Project Admin" field and select from the offered search results. (Input: New Project Admin Name)
+   - Expected result: The project admin is updated successfully.
+
+9. Click "Save."
+   - Expected result: A confirmation message is displayed indicating the project info has been successfully updated.

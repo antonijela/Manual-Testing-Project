@@ -1,0 +1,17 @@
+# ID: 4
+
+# Summary: "Latest version. Get it now" section displays unevenly sized boxes.
+
+# Description: The three boxes under the "Latest version. Get it now" section have varying heights, with the middle box being noticeably shorter, resulting in an unbalanced visual appearance.
+
+# Steps to reproduce:
+1. Navigate to "https://thebuggenie.org/"
+2. Observe the three boxes under the "Latest version. Get it now" link.
+
+# Expected result: 
+All three boxes should have uniform height for a cohesive and visually pleasing layout.
+
+# Actual result:
+The middle box is shorter than the other two, leading to an uneven visual presentation.
+
+# Priority: Low.

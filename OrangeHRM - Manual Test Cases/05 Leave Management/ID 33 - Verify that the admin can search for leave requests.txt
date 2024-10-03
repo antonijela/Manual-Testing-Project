@@ -1,0 +1,29 @@
+## ID: 33
+
+## Test Case Name: Verify that the admin can search for leave requests.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- There must be existing leave requests available for search.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Leave."
+   - Expected result: The Leave Management page is displayed, and the "Leave List" is open by default.
+
+2. On the top of the page, select the "My Leave" option.
+   - Expected result: The "My Leave List" page is displayed, showing leave requests specific to the logged-in admin.
+
+3. In the "From Date" field, enter or select a valid date range for leave requests to search.
+   - Expected result: The selected date range is applied.
+
+4. In the "To Date" field, enter or select a valid end date for the search.
+   - Expected result: The selected end date is applied.
+
+5. In the "Show Leave with Status" field, select the desired status from the dropdown list.
+   - Expected result: The chosen status is selected and reflected in the search criteria.
+
+6. In the "Leave Type" dropdown, select the specific leave type to filter the search.
+   - Expected result: The chosen leave type is applied to the search criteria.
+
+7. Click the "Search" button to execute the search.
+   - Expected result: The results matching the search criteria are displayed under "Records Found."

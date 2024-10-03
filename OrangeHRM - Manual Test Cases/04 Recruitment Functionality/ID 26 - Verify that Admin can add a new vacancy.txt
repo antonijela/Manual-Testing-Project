@@ -1,0 +1,42 @@
+## ID: 26
+
+## Test Case Name:
+Verify that Admin can add a new vacancy.
+
+## Pre-Conditions:
+- The Admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Click on "Recruitment" on the left side bar.
+   - Expected result: The Candidates page is displayed.
+
+2. Step: Click on the "Vacancy" button in the top left corner.
+   - Expected result: The Vacancies page is displayed.
+
+3. Step: Click on the "+ Add" button to open the "Add Vacancy" form.
+   - Expected result: The "Add Vacancy" form is displayed with fields for vacancy details.
+
+4. Step: Input Vacancy Name in the "Vacancy Name" field (input: Software Engineer).
+   - Expected result: Vacancy Name is entered and visible.
+
+5. Step: Select Job Title from the "Job Title" dropdown.
+   - Expected result: Job Title is selected and visible.
+
+6. Step: Input Description in the "Description" field (input: Responsible for developing software solutions).
+   - Expected result: Description is entered and visible.
+
+7. Step: Input Hiring Manager in the "Hiring Manager" field (input: valid name).
+   - Expected result: Hiring Manager is entered and visible.
+
+8. Step: Input Number of Positions in the "Number of Positions" field (input: number).
+   - Expected result: Number of Positions is entered and visible.
+
+9. Step: Switch the "Active" toggle to confirm that the vacancy is active.
+   - Expected result: The "Active" toggle is turned on.
+
+10. Step: Switch the "Publish in RSS Feed and Web Page" toggle to activate it.
+    - Expected result: The "Publish in RSS Feed and Web Page" toggle is turned on.
+
+11. Step: Click on the "Save" button to add the new vacancy.
+    - Expected result: A confirmation message is displayed, indicating that the vacancy has been added successfully.
+

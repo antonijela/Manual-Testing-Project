@@ -1,0 +1,23 @@
+## ID: 17
+
+## Test Case Name:
+Verify that the admin cannot add a user with an invalid username.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+
+## Steps:
+1. Step: Select the "Admin" option from the left sidebar.
+   - Expected result: The Admin management page is displayed.
+
+2. Step: Click the "Add" button to open the "Add User" page.
+   - Expected result: The "Add User" page is displayed.
+
+3. Step: Select a valid "User Role" and "Employee Name", then enter an **invalid username** in the "Username" field (input anyNonExistingUsername).
+   - Expected result: Immediately after typing, an error message is displayed next to the "Username" field indicating that the username is invalid.
+
+4. Step: Fill in the "Password" and "Confirm Password" fields with valid and matching values.
+   - Expected result: Password is entered and matches the confirm password field.
+
+5. Step: Click the "Save" button.
+   - Expected result: The user cannot be added, and the page remains on the "Add User" form.

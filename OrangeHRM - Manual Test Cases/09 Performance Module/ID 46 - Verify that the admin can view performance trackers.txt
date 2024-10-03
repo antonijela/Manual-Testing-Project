@@ -1,0 +1,17 @@
+## ID: 46
+
+## Test Case Name: Verify that the admin can view performance trackers.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one performance tracker must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. Click on "My Trackers" at the top.
+   - Expected result: The "My Trackers" page is displayed.
+
+3. In the "Record Found" list, locate the desired performance tracker and click "View" under the "Actions" column.
+   - Expected result: The detailed page for the selected tracker is displayed.

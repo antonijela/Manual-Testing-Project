@@ -1,0 +1,26 @@
+## ID: 47
+
+## Test Case Name: Verify that the admin can add tracker logs.
+
+## Pre-Conditions:
+- The admin must be logged in (refer to Test Case ID 1 for valid login credentials).
+- At least one performance tracker must exist in the system.
+
+## Steps:
+1. Navigate to the left sidebar and click on "Performance."
+   - Expected result: The "Manage Reviews" page is displayed.
+
+2. Click on "My Trackers" at the top.
+   - Expected result: The "My Trackers" page is displayed.
+
+3. In the "Record Found" list, locate the desired performance tracker and click "View" under the "Actions" column.
+   - Expected result: The detailed page for the selected tracker is displayed.
+
+4. Click the "+ Add Log" button.
+   - Expected result: The "Add Tracker Log" pop-up form is displayed.
+
+5. Fill in the "Log" field, select either the "Positive" or "Negative" option, and enter a comment in the "Comment" field.
+   - Expected result: The entered log details are visible.
+
+6. Click the "Save" button.
+   - Expected result: A success notification appears, and the new log is visible in the "Tracker Logs" section of the page.
